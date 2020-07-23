@@ -1,3 +1,4 @@
+/* Right before I started changing the nav bar in html */
 <!DOCTYPE html>
 <html>
   <head>
@@ -35,18 +36,22 @@
       @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
     </style>
     <!-- Beginning of header -->
-    <header>
-      <div class="container">
-        <div id="branding">
-          <h1>REESON STUDIO | Andrew P. Reeson</h1>
-        </div>
-        <nav>
+    <header id="main-header">
+      <h1>
+        <a
+          class="main-header-button"
+          href="file:///Users/andrewreeson/Desktop/Website/Reeson%20Studio/index.html#"
+          >REESON STUDIO | Andrew P. Reeson</a
+        >
+      </h1>
+      <nav id="navbar">
+        <div class="container">
           <ul>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Portfolio</a></li>
           </ul>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
     <!-- End of header -->
     <!-- Beginning of Main Container -->
